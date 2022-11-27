@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.about-container{
+  background-color: blue;
+}
+
+.photo-container {
+  background-color: blueviolet;
+}

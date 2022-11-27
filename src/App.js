@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Contato from './components/Contato';
-import Sobremim from './components/Sobremim';
+import Skills from './components/Skills';
+import About from './components/About';
 import Projects from './components/Projects';
 import Header from './components/Header';
 import Main from './components/Main';
@@ -20,9 +20,9 @@ class App extends React.Component {
           <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/contato" component={ Contato } />
-          <Route exact path="/sobremim" component={ Sobremim }>
-            <Sobremim />
+          <Route path="/skills" component={ Skills } />
+          <Route exact path="/about" component={ About }>
+            <About />
           </Route>
         </Switch>
           <Footer />

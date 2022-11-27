@@ -7,11 +7,11 @@ function ColorSchemesExample() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Brand href="/">Página Inicial</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/projects">Projetos</Nav.Link>
-            <Nav.Link href="/Sobremim">Sobre mim</Nav.Link>
-            <Nav.Link href="/Contato">Contato</Nav.Link>
+           <Nav.Link href="/About">Sobre mim</Nav.Link>
+            <Nav.Link href="/Projects">Projetos</Nav.Link>
+            <Nav.Link href="/Skills">Habilidades</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

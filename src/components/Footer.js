@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../styles/footer.css';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdOutgoingMail } from 'react-icons/md';
+import { BsFacebook } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
 
 export default class Footer extends Component {
   render() {
@@ -22,6 +24,20 @@ export default class Footer extends Component {
           rel="noopener noreferrer"
         >
           <BsLinkedin size={40}/>
+        </a>
+        <a 
+          href="https://www.facebook.com/pedro.steinmuller/" 
+          target="_blank"
+          rel="noopener noreferrer"
+          > 
+          <BsFacebook size={40} />
+        </a>
+        <a 
+          href="https://www.instagram.com/pedrosteinmuller/"
+          target="_blank" 
+          rel="noopener noreferrer"
+          > 
+          <BsInstagram size={40} />
         </a>
       </nav>
       </footer>
