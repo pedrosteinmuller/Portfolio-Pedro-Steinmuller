@@ -1,0 +1,12 @@
+#footer {
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(90deg, #0b0c0c 0%, #1b262c 50%, #0b0c0c 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.nav-container a {
+  margin: 0 10px;
+}
