@@ -1,13 +1,29 @@
 .main-container {
   display: flex;
-  justify-content: space-between;
   padding: 40px;
 }
 
 .about-container{
-  background-color: blue;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-container p {
+  font-style: italic;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo-container {
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.photo-about {
+  border-radius: 20%;
+  margin-left: 50px;
+  max-width:400px;
+  max-height:350px;
 }
