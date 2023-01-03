@@ -49,10 +49,10 @@ left: 0;
 }
 
 .myphoto {
-  border-radius: 40%;
+  border-radius: 25%;
   margin-left: 50px;
-  max-width:400px;
-  max-height:450px;
+  max-width:450px;
+  max-height:500px;
 }
 .wave {
   animation-name: wave-animation;

@@ -21,7 +21,7 @@ class Main extends Component {
             </Col>
             <Col xs={12} md={6} xl={5}>
             <div className="image">
-              <img src="pedinn.jpeg" alt = "pedro" className="myphoto"></img>
+              <img src="pedinn.jpg" alt = "pedro" className="myphoto"></img>
             </div>
             </Col>
           </Row>
