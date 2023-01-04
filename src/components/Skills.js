@@ -31,13 +31,13 @@ class Skills extends Component {
           <Row>
             <Col>
             <div className='skill-bx'>
-              <h2>
+              <h3 className='title'>
                 Minhas Habilidades
-              </h2>
+              </h3>
               <Carousel responsive={responsive} infinite={true} className='skill-slider'>
               {
                 mySkills.map(({ name, image }) => (
-              <div className='skills' key={name}>
+              <div key={name}>
                 <img src={image} alt="stacks" />
                 <p>{name}</p>
               </div>
