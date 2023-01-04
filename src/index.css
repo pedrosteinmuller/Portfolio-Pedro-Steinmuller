@@ -3,6 +3,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to left top, #265090, #00587e, #00595e, #2a5443, #464e39);
+  background-attachment: fixed;
   font-family: "Raleway", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

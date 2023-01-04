@@ -1,0 +1,13 @@
+.projects img {
+  width: 70px;
+  height: 70px;
+}
+
+.projectsArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 5rem;
+  height: 25rem;
+}

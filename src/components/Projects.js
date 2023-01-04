@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import myProjects from "../helpers/projectData";
+import "../styles/projects.css";
 
 class Projects extends Component {
   render() {
@@ -9,10 +10,10 @@ class Projects extends Component {
           <div>
             <h5>{project.nome}</h5>
             <p>{project.descricao}</p>
-            <div>
+            <div className="projectsArea">
               <p>
                 <strong>Tecnologias:</strong>
-                <div>
+                <div className="projects">
                   {project.stacks.map((stack) => (
                     <img src={stack} alt="stack" />
                   ))}
