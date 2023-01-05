@@ -1,13 +1,111 @@
 .projects img {
   width: 70px;
   height: 70px;
+  margin-right: 25px;
 }
 
-.projectsArea {
+.project {
+  padding: 80px 0;
+  position: relative;
+}
+.project h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.project p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.project .nav.nav-pills {
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.project .nav.nav-pills .nav-item {
+  width: 50%;
+}
+.project .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: black;
+  width: 100%;
+  font-size: 19px;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+.project .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.project .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  background-color: antiquewhite;
+}
+
+.stacks {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  gap: 5rem;
-  height: 25rem;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.stacks h3 {
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.linksArea {
+  display: flex;
+  justify-content:center;
+}
+
+.linksArea a {
+  text-decoration: none;
+  color: black;
+  border: solid 8px transparent;
+	border-radius: 0.8rem;
+  border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
+  font-weight: 600;
+}
+
+.linksArea a:hover {
+  background-color: white;
 }

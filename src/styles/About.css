@@ -13,6 +13,8 @@
   text-align:justify;
   justify-content: center;
   align-items: center;
+  color: black;
+  font-weight: bold;
 }
 
 .photo-container {
