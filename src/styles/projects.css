@@ -99,13 +99,21 @@
 
 .linksArea a {
   text-decoration: none;
+  padding: 10px;
+  transition: 0.5s ease;
   color: black;
   border: solid 8px transparent;
 	border-radius: 0.8rem;
   border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .linksArea a:hover {
   background-color: white;
+}
+
+.linksArea:hover a:not(:hover) {
+  color: white;
+  opacity: 0.3;
+  filter: blur(1px);
 }
