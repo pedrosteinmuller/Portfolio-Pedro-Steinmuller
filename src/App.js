@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import { Contact } from './components/Contact';
 import './styles/App.css';
 
 class App extends React.Component {
@@ -23,6 +24,9 @@ class App extends React.Component {
           <Route path="/skills" component={ Skills } />
           <Route exact path="/about" component={ About }>
             <About />
+          </Route>
+          <Route exact path="/contact" component={ Contact }>
+            <Contact />
           </Route>
         </Switch>
           <Footer />

@@ -13,6 +13,7 @@ function ColorSchemesExample() {
            <Nav.Link href="/About" className='colortext'>Sobre mim</Nav.Link>
             <Nav.Link href="/Projects" className='colortext'>Projetos</Nav.Link>
             <Nav.Link href="/Skills" className='colortext'>Habilidades</Nav.Link>
+            <Nav.Link href="/Contact" className='colortext'>Contato</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
